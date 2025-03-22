@@ -1,0 +1,54 @@
+.some-text {
+    /* Шрифт */
+    font-family: "Open Sans", "Arial", sans-serif;
+    /* Размер шрифта */
+    font-size: 20px;
+    /* Высота строки */
+    line-height: 30px;
+    /* Прижат текст */
+    text-align: left;
+    /* Жирность шрифта */
+    font-weight: 300;
+    /* Наклон */
+    font-style: italic;
+}
+
+.some-text2 {
+    /* Шрифт */
+    font-family: "Open Sans", "Arial", sans-serif;
+    /* Размер шрифта */
+    font-size: 30px;
+    /* Высота строки */
+    line-height: 40px;
+    /* Прижат текст */
+    text-align: left;
+    /* Жирность шрифта */
+    font-weight: 500;    
+    text-decoration: line-through;
+}
+
+.some-text3 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-indent: 40px;
+    font-weight: 400; 
+}
+
+.some-text4 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: rgb(136, 7, 175);
+    text-decoration: double;
+    word-spacing: 30px;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #000;
+    text-decoration: wavy overline ;
+}
+
+.some-text5 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    text-decoration: underline double 3px;
+    word-spacing: 5px;
+}
