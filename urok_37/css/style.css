@@ -1,0 +1,32 @@
+form {
+    max-width: 300px;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+
+input {
+    display: block;
+    margin-bottom: 6px;
+}
+
+textarea {
+    display: block;
+    resize: vertical;
+    max-height: 100px;
+    min-height: 20px;
+    margin-bottom: 6px;
+}
+
+#checkbox {
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+}
