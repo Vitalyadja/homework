@@ -1,0 +1,51 @@
+.page {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--main-color);
+  scroll-behavior: smooth;
+  scroll-padding-top: 98px;
+  scrollbar-gutter: stable;
+}
+
+.page__body {
+  min-width: 375px;
+  background-color: var(--accent-color);
+}
+
+.page__body--no-scroll {
+  overflow-y: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+.title-medium {
+  font-family: var(--second-family);
+  font-weight: 900;
+  font-size: 48px;
+  color: var(--main-color);
+}
+
+.btn__active-watch {
+  border: 1px solid #0000001a;
+  border-radius: 62px;
+  padding: 16px 54px;
+  width: 228px;
+  height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--main-color);
+  transition: color var(--transition-time), background-color var(--transition-time);
+}
+
+.btn__active-watch:hover {
+  color: var(--accent-color);
+  background-color: var(--main-color);
+}

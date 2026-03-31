@@ -1,0 +1,15 @@
+.advertising {
+    background: var(--main-color);
+    padding-block: 10px;
+}
+
+.advertising__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.emphasize {
+    text-decoration: underline;
+}

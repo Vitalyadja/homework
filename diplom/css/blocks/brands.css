@@ -1,0 +1,12 @@
+.brands__container {
+    background: var(--main-color);
+    padding-block: 43px;
+}
+
+.brands__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,30 @@
+:root {
+  /* font-family */
+  --font-family: "Satoshi", sans-serif;
+  --third-family: "Integral CF", sans-serif;
+  --second-family: "FONTSPRING DEMO - Integral CF Heavy", sans-serif;
+
+  /* colors */
+  --main-color: #000;
+  --accent-color: #fff;
+  --secondary-color: #00000099;
+
+  /* shadows */
+  --shadow-glow: 0 0 6px 2px var(--main-glow-color);
+  --shadow-accent-glow: 0 0 6px 2px var(--accent-glow-color);
+  --shadow-disabled-glow: 0 0 6px 2px var(--disabled-glow-color);
+
+  /* container */
+  --container-width: 1240px;
+  --container-padding: 15px;
+
+  /* transitions */
+  --transition-time: 0.2s;
+
+  /* layers */
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}
